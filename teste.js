@@ -36,7 +36,7 @@ async function fazerUpload() {
         }))
 
     if (falha == "") {
-        falha = ['Nenhuma promise rejeitada']
+        falha = 'Nenhuma promise rejeitada'
     }
 
     return ({
